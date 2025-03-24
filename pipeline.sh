@@ -2,7 +2,7 @@
 
 # Установка зависимостей
 echo "Installing dependencies from requirements.txt..."
-pip3 install -r requirements.txt --break-system-packages
+pip3 install -r requirements.txt
 echo "Dependencies installed."
 
 # Генерация данных
