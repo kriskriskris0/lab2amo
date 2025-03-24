@@ -6,7 +6,7 @@ python -m venv venv
 echo "Virtual environment created."
 
 echo "Activating virtual environment..."
-source venv/bin/activate
+. .venv/bin/activate
 echo "Virtual environment activated."
 
 # Установка зависимостей
