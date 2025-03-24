@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# Создание и активация виртуального окружения
+echo "Creating virtual environment..."
+python -m venv venv
+echo "Virtual environment created."
+
+echo "Activating virtual environment..."
+source venv/bin/activate
+echo "Virtual environment activated."
+
 # Установка зависимостей
 echo "Installing dependencies from requirements.txt..."
 pip3 install -r requirements.txt
