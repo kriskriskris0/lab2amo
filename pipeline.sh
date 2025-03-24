@@ -11,7 +11,7 @@ echo "Virtual environment activated."
 
 # Установка зависимостей
 echo "Installing dependencies from requirements.txt..."
-pip3 install -r requirements.txt
+pip3 install -r requirements.txt --break-system-packages
 echo "Dependencies installed."
 
 # Генерация данных
